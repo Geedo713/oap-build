@@ -97,11 +97,11 @@ header {
 }
 
 #header-btn {
-    color: white;
     border: none;
+    color: white;
     border-radius: 3px;
-    height: 5vh;
-    background: black;
+    height: 8vh;
+    background: #547874;
     text-transform: uppercase;
 }
 
@@ -167,7 +167,7 @@ span {
 form {
     background: white;
     border-radius: 2px;
-    height: 46vh;
+    height: 51.4vh;
     border: 1px solid rgba(0, 0, 0, 0.26);
     width: 350px;
     min-width: 200px;
@@ -191,8 +191,8 @@ textarea {
 }
 
 #form-btn {
-    color: white;
     border-radius: 3px;
+    color: white;
     width: 90%;
     height: 5vh;
     background: #547874;
