@@ -97,10 +97,11 @@ header {
 }
 
 #header-btn {
+    color: white;
     border: none;
     border-radius: 3px;
     height: 5vh;
-    background: #547874;
+    background: black;
     text-transform: uppercase;
 }
 
@@ -190,6 +191,7 @@ textarea {
 }
 
 #form-btn {
+    color: white;
     border-radius: 3px;
     width: 90%;
     height: 5vh;
