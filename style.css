@@ -1,0 +1,238 @@
+/* Responsive site rules */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {         /*mobile devices*/
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }    
+    body > header {
+        position: fixed;
+        top: 0;
+      }
+      body > footer {
+        position: fixed;
+        bottom: 0;
+      }
+}
+
+@media (min-width: 480px), (max-width: 767px) {      /*low-resolution tablets, and ipads*/
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }    
+}
+
+@media (min-width: 768px), (max-width: 1024px) {
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }    
+}
+
+@media (min-width: 768px), (max-width: 1024) {       /*tablets and ipads with portrait mode*/
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }   
+}
+
+@media (min-width: 1025px), (max-width: 1280px) {        /*Media query for laptops and desktops*/
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }    
+}
+
+@media (min-width: 1281px) {        /*Media query for large screens*/
+    body {
+        border: none;
+        padding: none;
+        text-align: center;
+    }    
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/*Font rules*/
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+h1,
+h3,
+.form-h4 {
+    color: #547874;
+    text-transform: uppercase;
+}
+strong {
+    color: #ff1616;
+    text-transform: uppercase;
+}
+
+/* Img Control*/
+
+.warrior-class {
+    height: 300px;
+    width: 100%;
+}
+
+/* Sticky Header abd Footer, Header and Footer, section box control*/
+
+header {
+    background: url(african-print.png);
+    height: 70vh;
+}
+
+#header-btn {
+    border: none;
+    border-radius: 3px;
+    height: 5vh;
+    background: #547874;
+    text-transform: uppercase;
+}
+
+.form-header {
+    background: #547874;
+    height: 3px;
+}
+
+
+.section-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.section-four {
+    text-align: center;
+}
+
+.column-one {
+    width: 60%;
+    float: left;
+    min-width: 200px;
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.column-two {
+    width: 60%;
+    min-width: 100px;
+    max-width: 400px;
+    float: right;
+    margin-right: auto;
+}
+
+.section-three-btn-div {
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+span {
+    font-size: 13px;
+}
+
+.form-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background: white;
+    border-radius: 2px;
+    height: 46vh;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    width: 350px;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+    width: 90%;
+    border-radius: 2px;
+    height: 3vh;
+}
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+    width: 90%;
+    border-radius: 2px;
+    height: 10vh;
+}
+
+#form-btn {
+    border-radius: 3px;
+    width: 90%;
+    height: 5vh;
+    background: #547874;
+    border: none;
+    text-transform: uppercase;
+}
+
+.footer-span {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    background: black; 
+    color: white;
+    height: 30vh;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+.twitter-pic {
+    height: 50px;
+    float: left;
+}
+
+.youtube-pic {
+    height: 50px;
+    float: left;
+}
+
