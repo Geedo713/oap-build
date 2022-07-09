@@ -67,7 +67,7 @@ html {
 /*Font rules*/
 
 h2 {
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
@@ -92,8 +92,11 @@ strong {
 /* Sticky Header abd Footer, Header and Footer, section box control*/
 
 header {
-    background: url(african-print.png);
+    background: url(african-skyline.jpg);
+    width: 55%;
     height: 70vh;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #header-btn {
@@ -167,7 +170,7 @@ span {
 form {
     background: white;
     border-radius: 2px;
-    height: 51.4vh;
+    height: 46vh;
     border: 1px solid rgba(0, 0, 0, 0.26);
     width: 350px;
     min-width: 200px;
@@ -229,4 +232,5 @@ li {
     height: 50px;
     float: left;
 }
+
 
