@@ -77,6 +77,12 @@ h3,
     color: #547874;
     text-transform: uppercase;
 }
+
+.confirmationMsg {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 strong {
     color: #ff1616;
     text-transform: uppercase;
@@ -167,6 +173,14 @@ span {
     margin-right: auto;
 }
 
+.form-div::before {
+    opacity: 1;
+}
+
+.form-div::after {
+    opacity: 0;
+}
+
 form {
     background: white;
     border-radius: 2px;
@@ -232,5 +246,4 @@ li {
     height: 50px;
     float: left;
 }
-
 
