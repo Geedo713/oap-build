@@ -16,10 +16,7 @@
     body {
         border: none;
         padding: none;
-    } 
-    /*.upper-section {
-        padding-left: 155px;
-    } */   
+    }   
 }
 @media (min-width: 480px), (max-width: 767px) {      /*low-resolution tablets, and ipads*/
     body {
@@ -44,35 +41,26 @@
     body {
         border: none;
         padding: none;
-    }
-    /*.upper-section {
-        padding-left: 155px;
-    } */    
+    }   
 }
 @media (min-width: 1025px), (max-width: 1280px) {        /*Media query for laptops and desktops*/
     body {
         border: none;
         padding: none;
-    }
-    /*.upper-section {
-        padding-left: 155px;
-    } */          
+    }         
 }
 @media (min-width: 1281px) {        /*Media query for large screens*/
     body {
         border: none;
         padding: none;
     }
-    /*.upper-section {
-        padding-left: 155px;
-    } */          
 }
 
 html {
     overflow-x: hidden;
 }
 
-/*Font rules*/
+/*Header rules*/
 
 h1 {
     text-align: center;
@@ -94,32 +82,12 @@ span {
     text-align: center;
 }
 
-.confirmationMsg {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Sticky Header and Footer, Header and Footer, section box control*/
+/*Header and Footer, Header and Footer, section box control*/
 
 header {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-}
-
-#header-btn {
-    border: none;
-    color: white;
-    border-radius: 3px;
-    height: 8vh;
-    background: #547874;
-    text-transform: uppercase;
-}
-
-.form-header {
-    background: #547874;
-    height: 3px;
 }
 
 .upper-section {
@@ -129,10 +97,6 @@ header {
 }
 
 .family {
-    text-align: center;
-}
-
-.section-three-btn-div {
     text-align: center;
 }
 
@@ -149,6 +113,8 @@ span {
 #invisi-text {
     color: red;
 }
+
+/*Image control*/
 
 .pic-section {
     text-align: center;
@@ -170,6 +136,8 @@ span {
     padding-top: 5px;
 }
 
+/*button control*/
+
 .bottom-btn-div {
     text-align: center;
 }
@@ -183,6 +151,7 @@ span {
     color: black;
 
 }
+/*Footer rules*/
 
 .empty-space {
     height: 50vh;
@@ -199,3 +168,5 @@ footer {
 a {
     text-decoration: none;
 }
+
+
