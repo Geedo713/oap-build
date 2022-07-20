@@ -152,10 +152,6 @@ span {
 
 }
 /*Footer rules*/
-
-.empty-space {
-    height: 50vh;
-}
 footer {
     text-align: center; 
     height: 30vh;
@@ -168,5 +164,3 @@ footer {
 a {
     text-decoration: none;
 }
-
-
