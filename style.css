@@ -180,10 +180,15 @@ span {
     height: 40px;
     width: 150px;
     border: none;
+    color: black;
+
+}
+
+.empty-space {
+    height: 50vh;
 }
 footer {
     text-align: center; 
-    color: white;
     height: 30vh;
 }
 
