@@ -2,8 +2,9 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Tiro Kannada', serif;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 *::before,
@@ -11,53 +12,60 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 @media (max-width: 480px) {         /*mobile devices*/
     body {
         border: none;
         padding: none;
-        text-align: center;
-    }    
+    } 
+    /*.upper-section {
+        padding-left: 155px;
+    } */   
 }
-
 @media (min-width: 480px), (max-width: 767px) {      /*low-resolution tablets, and ipads*/
     body {
         border: none;
         padding: none;
         text-align: center;
+    }  
+    ul {
+        display: inline-flex;
+        list-style: none;
+        padding-right: 300px;
     }    
 }
-
 @media (min-width: 768px), (max-width: 1024px) {
     body {
         border: none;
         padding: none;
         text-align: center;
-    }    
+    }     
 }
-
-@media (min-width: 768px), (max-width: 1024) {       /*tablets and ipads with portrait mode*/
+@media (min-width: 768px), (max-width: 1024) {       /*tablets and ipads w/ portrait mode*/
     body {
         border: none;
         padding: none;
-        text-align: center;
-    }   
+    }
+    /*.upper-section {
+        padding-left: 155px;
+    } */    
 }
-
 @media (min-width: 1025px), (max-width: 1280px) {        /*Media query for laptops and desktops*/
     body {
         border: none;
         padding: none;
-        text-align: center;
-    }    
+    }
+    /*.upper-section {
+        padding-left: 155px;
+    } */          
 }
-
 @media (min-width: 1281px) {        /*Media query for large screens*/
     body {
         border: none;
         padding: none;
-        text-align: center;
-    }    
+    }
+    /*.upper-section {
+        padding-left: 155px;
+    } */          
 }
 
 html {
@@ -65,6 +73,10 @@ html {
 }
 
 /*Font rules*/
+
+h1 {
+    text-align: center;
+}
 
 h2 {
     color: black;
@@ -74,8 +86,12 @@ h2 {
 h1,
 h3,
 .form-h4 {
-    color: #547874;
+    color: black;
     text-transform: uppercase;
+}
+
+span {
+    text-align: center;
 }
 
 .confirmationMsg {
@@ -83,26 +99,13 @@ h3,
     margin-left: auto;
     margin-right: auto;
 }
-strong {
-    color: #ff1616;
-    text-transform: uppercase;
-}
 
-/* Img Control*/
-
-.warrior-class {
-    height: 300px;
-    width: 100%;
-}
-
-/* Sticky Header abd Footer, Header and Footer, section box control*/
+/* Sticky Header and Footer, Header and Footer, section box control*/
 
 header {
-    background: url(african-skyline.jpg);
-    width: 55%;
-    height: 70vh;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 #header-btn {
@@ -119,41 +122,14 @@ header {
     height: 3px;
 }
 
-
-.section-one {
-    display: flex;
-    flex-direction: row;
-}
-
-.section-two {
-    display: flex;
-    flex-direction: row;
-}
-
-.section-three {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
-}
-
-.section-four {
-    text-align: center;
-}
-
-.column-one {
-    width: 60%;
-    float: left;
-    min-width: 200px;
-    max-width: 600px;
+.upper-section {
     margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
 }
 
-.column-two {
-    width: 60%;
-    min-width: 100px;
-    max-width: 400px;
-    float: right;
-    margin-right: auto;
+.family {
+    text-align: center;
 }
 
 .section-three-btn-div {
@@ -165,85 +141,56 @@ button:hover {
 }
 
 span {
-    font-size: 13px;
-}
-
-.form-div {
+    font-size: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.form-div::before {
-    opacity: 1;
+#invisi-text {
+    color: red;
 }
 
-.form-div::after {
-    opacity: 0;
-}
-
-form {
-    background: white;
-    border-radius: 2px;
-    height: 46vh;
-    border: 1px solid rgba(0, 0, 0, 0.26);
-    width: 350px;
-    min-width: 200px;
-    max-width: 500px;
-}
-
-input {
-    border: 1px solid rgba(0, 0, 0, 0.26);
-    border-radius: 4px;
-    width: 90%;
-    border-radius: 2px;
-    height: 3vh;
-}
-
-textarea {
-    border: 1px solid rgba(0, 0, 0, 0.26);
-    border-radius: 4px;
-    width: 90%;
-    border-radius: 2px;
-    height: 10vh;
-}
-
-#form-btn {
-    border-radius: 3px;
-    color: white;
-    width: 90%;
-    height: 5vh;
-    background: #547874;
-    border: none;
-    text-transform: uppercase;
-}
-
-.footer-span {
-    font-size: 30px;
-}
-
-footer {
+.pic-section {
     text-align: center;
-    background: black; 
+    height: 30vh;
+}
+
+.pic-section-two {
+    text-align: center;
+    height: 30vh;
+}
+
+.african-skyline {
+    height: 30vh;
+    width: 100%;
+}
+
+.envelope {
+    height: 35px;
+    padding-top: 5px;
+}
+
+.bottom-btn-div {
+    text-align: center;
+}
+
+#subscribe-btn {
+    text-transform: uppercase;
+    background: red;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+footer {
+    text-align: center; 
     color: white;
     height: 30vh;
 }
 
-ul {
-    display: inline-flex;
-    list-style: none;
-}
-
-li {
+.dev-creds-div {
     text-align: center;
 }
 
-.twitter-pic {
-    height: 50px;
-    float: left;
+a {
+    text-decoration: none;
 }
-
-.youtube-pic {
-    height: 50px;
-    float: left;
-}
-
