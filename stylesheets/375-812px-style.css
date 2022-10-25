@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) and (min-height: 667px) {
+@media only screen and (min-width: 375px) and (min-height: 812px) {
     /* Responsive site rules */
 * {
     -webkit-box-sizing: border-box;
@@ -76,12 +76,13 @@
         height: 10vh;
         list-style: none;
         position: relative;
-        right: 60px;
+        right: 50px;
     }
 
     li {
         font-family: 'Montserrat', sans-serif;
         padding: 10px;
+        padding-right: 50px;
         height: 10vh;
     }
 
@@ -175,11 +176,6 @@
         width: 35%;
         height: 30vh;
         background: black;
-        display: grid;
-    }
-
-    .black h3 {
-        color: white;
     }
 
     .green {

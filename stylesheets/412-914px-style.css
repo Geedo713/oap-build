@@ -1,125 +1,202 @@
 @media only screen and (min-width: 412px) and (min-height: 914px) {
     /* Responsive site rules */
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Tiro Kannada', serif;
-    margin-left: auto;
-    margin-right: auto;
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;  
+    }
     
-}
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+    *::before,
+    *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+        body {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        html {
+            overflow-x: hidden;
+        }
+        
+        /*Header rules*/
+        
+        h1 {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        h2 {
+            color: black;
+            font-size: 40px;
+        }
+        
+        h1,
+        h3,
+        .form-h4 {
+            color: black;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif; 
+        }
+    
+        p {
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        span {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        .header-img
+        /*.footer-img*/ {
+            width: 100%;
+            height: 35vh;
+        }
+        /*Header and Footer, Header and Footer, section box control*/
+        
+        header {
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+        
+        .upper-section {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            width: 100%;  
+            font-family: 'Montserrat', sans-serif;  
+        }
+    
+        ul {
+            display: flex;
+            height: 10vh;
+            list-style: none;
+        }
+    
+        li {
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px;
+            height: 10vh;
+            position: relative;
+            right: 50px;
+        }
+    
+        .lower-section {
+            width: 100%;
+            text-align: left; 
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        .family {
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        button:hover {
+            cursor: pointer;
+        }
+        
+        span {
+            font-size: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        #invisi-text {
+            color: red;
+        }
+        
+        /*Image control*/
+    
+        figcaption {
+            font-family: 'Montserrat', sans-serif; 
+        }
+        
+        .pic-section {
+            text-align: center;
+            height: 30vh;
+        }
+        
+        .pic-section-two {
+            text-align: center;
+            height: 30vh;
+        }
+        
+        .african-skyline {
+            height: 30vh;
+            width: 100%;
+        }
+        
+        /*button control*/
+        
+        .bottom-btn-div {
+            text-align: center;
+        }
+        
+        #subscribe-btn {
+            text-transform: uppercase;
+            background: red;
+            height: 40px;
+            width: 150px;
+            border: none;
+            color: black;
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 15px;
+            font-weight: 700;
+        
+        }
+        /*Footer rules*/
+    
+        .footer-div {
+            width: 100%;
+        }
+        footer { 
+            height: 40vh;
+            background: url("camel-man.jpg");
+            background-size: cover;
+        }
 
-    html {
-        overflow-x: hidden;
-    }
+        .contact-div {
+            height: 30vh;
+            display: flex;
+        }
+
+        .red {
+            width: 35%;
+            height: 30vh;
+            background: linear-gradient(to right, red, black);
+        }
+
+        .black {
+            width: 35%;
+            height: 30vh;
+            background: black;
+            display: grid;
+        }
     
-    /*Header rules*/
-    
-    h1 {
-        text-align: center;
-    }
-    
-    h2 {
-        color: black;
-        font-size: 40px;
-    }
-    
-    h1,
-    h3,
-    .form-h4 {
-        color: black;
-        text-transform: uppercase;
-    }
-    
-    span {
-        text-align: center;
-    }
-    
-    /*Header and Footer, Header and Footer, section box control*/
-    
-    header {
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
-    
-    .upper-section {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;   
-    }
-    
-    .family {
-        text-align: center;
-    }
-    
-    button:hover {
-        cursor: pointer;
-    }
-    
-    span {
-        font-size: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #invisi-text {
-        color: red;
-    }
-    
-    /*Image control*/
-    
-    .pic-section {
-        text-align: center;
-        height: 30vh;
-    }
-    
-    .pic-section-two {
-        text-align: center;
-        height: 30vh;
-    }
-    
-    .african-skyline {
-        height: 30vh;
-        width: 100%;
-    }
-    
-    .envelope {
-        height: 35px;
-        padding-top: 5px;
-    }
-    
-    /*button control*/
-    
-    .bottom-btn-div {
-        text-align: center;
-    }
-    
-    #subscribe-btn {
-        text-transform: uppercase;
-        background: red;
-        height: 40px;
-        width: 150px;
-        border: none;
-        color: black;
-    
-    }
-    /*Footer rules*/
-    footer {
-        text-align: center; 
-        height: 30vh;
-    }
-    
-    .dev-creds-div {
-        text-align: center;
-    }
-    
-    a {
-        text-decoration: none;
-    }
+        .black h3 {
+            color: white;
+        }
+
+        .green {
+            width: 35%;
+            height: 30vh;
+            background: linear-gradient(to right,black, green);
+        }
+        
+        .dev-creds-div {
+            text-align: center;
+            height: 4vh;
+            position: relative;
+            top: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif; 
+        }
 }

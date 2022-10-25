@@ -1,4 +1,4 @@
-@media only screen and (min-width: 393px) and (min-height: 851px) {
+@media only screen and (min-width: 360px) and (min-height: 760px) {
     /* Responsive site rules */
     * {
         -webkit-box-sizing: border-box;
@@ -75,14 +75,14 @@
             display: flex;
             height: 10vh;
             list-style: none;
+            position: relative;
+            right: 80px;
         }
     
         li {
             font-family: 'Montserrat', sans-serif;
             padding: 10px;
             height: 10vh;
-            position: relative;
-            right: 50px;
         }
     
         .lower-section {

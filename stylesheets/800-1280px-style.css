@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) and (min-height: 667px) {
+@media only screen and (min-width: 800px) and (min-height: 1280px) {
     /* Responsive site rules */
 * {
     -webkit-box-sizing: border-box;
@@ -16,6 +16,7 @@
     body {
         margin-left: auto;
         margin-right: auto;
+        max-width: 800px;
     }
     html {
         overflow-x: hidden;
@@ -76,12 +77,13 @@
         height: 10vh;
         list-style: none;
         position: relative;
-        right: 60px;
+        left: 30px;
     }
 
     li {
         font-family: 'Montserrat', sans-serif;
         padding: 10px;
+        padding-right: 50px;
         height: 10vh;
     }
 
@@ -175,11 +177,6 @@
         width: 35%;
         height: 30vh;
         background: black;
-        display: grid;
-    }
-
-    .black h3 {
-        color: white;
     }
 
     .green {
